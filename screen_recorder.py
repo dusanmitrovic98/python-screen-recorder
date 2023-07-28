@@ -19,3 +19,4 @@ try:
         out.write(frame)
         cv2.imshow('Live', frame)
         if cv2.waitKey(1) == ord('q'):
+            break
