@@ -24,3 +24,4 @@ try:
 finally:
     out.release()
     cv2.destroyAllWindows()
+
