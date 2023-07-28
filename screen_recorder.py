@@ -8,3 +8,4 @@ codec = cv2.VideoWriter_fourcc(*"H264")
 filename = "Recording.mp4"
 fps = 60.0
 out = cv2.VideoWriter(filename, codec, fps, resolution)
+cv2.namedWindow("Live", cv2.WINDOW_NORMAL)
