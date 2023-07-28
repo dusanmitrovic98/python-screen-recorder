@@ -13,3 +13,4 @@ cv2.resizeWindow("Live", 480, 270)
 
 try:
     while True:
+        img = pyautogui.screenshot()
