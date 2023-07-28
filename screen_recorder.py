@@ -12,3 +12,4 @@ cv2.namedWindow("Live", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("Live", 480, 270)
 
 try:
+    while True:
